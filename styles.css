@@ -65,23 +65,46 @@ body, html {
     animation-fill-mode: forwards; /* Ensure the final state (opacity: 1) is retained */
 }
 
+/* Base color for countries */
 .country {
-    transition: fill 0.3s ease; /* Smooth transition for the fill color */
+    fill: #465778; /* paleta.base */
+    transition: fill 0.1s ease; /* Smooth transition for color changes */
 }
 
+/* Hover effect */
 .country:hover {
-    fill: #aaaaaa; /* Slightly brighter color on hover */
-    cursor: pointer; /* Changes the cursor to indicate interactivity */
+    fill: #ef8762; /* Slightly lighter shade for hover */
+}
+
+/* Selected country color */
+.country.selected {
+    fill: #ef8762; /* paleta.pais_seleccionado */
 }
 
 .country path,g {
     fill: #465778; /* Default color for countries */
-    transition: fill 0.3s ease; /* Smooth transition for hover effect */
+    transition: fill 0.1s ease; /* Smooth transition for hover effect */
 }
 
 .country path:hover {
-    fill: #aaaaaa; /* Slightly brighter color on hover */
+    fill: #ef8762; /* Slightly brighter color on hover */
     cursor: pointer; /* Changes the cursor to indicate interactivity */
+}
+
+/* Base color for countries */
+.country path {
+    fill: #465778; /* paleta.base */
+    transition: fill 0.3s ease; /* Smooth transition for color changes */
+}
+
+/* Hover effect */
+.country:hover path {
+    fill: #ef8762; /* Slightly lighter shade for hover */
+}
+
+/* Selected country color */
+.country.selected path {
+    fill: #ef8762; /* paleta.pais_seleccionado */
 }
 
 /* Ensure the wrapper div takes up the full screen */
