@@ -99,6 +99,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Select all countries as a D3 selection
     const countries = d3.selectAll('.country');
 
+    // Set a random opacity for each country
+    countries.each(function () {
+        //const randomOpacity = Math.random() * (1 - 0.4) + 0.4; // Generate a random value between 0.6 and 1
+        //d3.select(this).style("opacity", randomOpacity);
+    });
+
     // Select the SVG and set up zoom behavior
     const svg = d3.select(".map-svg");
 
@@ -143,6 +149,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         if (countryName) {
             console.log(`Country ID: ${countryId}, Country Name: ${countryName}`);
+            
         } else {
             console.log(`Country ID: ${countryId}, Country Name: Not Found`);
         }
@@ -161,4 +168,3 @@ document.addEventListener('DOMContentLoaded', async () => {
             .attr("viewBox", "0 235 900 470");
     });
 });
-
