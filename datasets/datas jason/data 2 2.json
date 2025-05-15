@@ -1,0 +1,1121 @@
+{
+"mismanaged-waste-global-total":[
+ {
+  "Entity": "Albania",
+  "Code": "ALB",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 933
+ },
+ {
+  "Entity": "Algeria",
+  "Code": "DZA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 16347
+ },
+ {
+  "Entity": "Angola",
+  "Code": "AGO",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1964
+ },
+ {
+  "Entity": "Anguilla",
+  "Code": "AIA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2
+ },
+ {
+  "Entity": "Antigua and Barbuda",
+  "Code": "ATG",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 39
+ },
+ {
+  "Entity": "Argentina",
+  "Code": "ARG",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 4955
+ },
+ {
+  "Entity": "Aruba",
+  "Code": "ABW",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 12
+ },
+ {
+  "Entity": "Australia",
+  "Code": "AUS",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 436
+ },
+ {
+  "Entity": "Bahamas",
+  "Code": "BHS",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 42
+ },
+ {
+  "Entity": "Bahrain",
+  "Code": "BHR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 137
+ },
+ {
+  "Entity": "Bangladesh",
+  "Code": "BGD",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 24725
+ },
+ {
+  "Entity": "Barbados",
+  "Code": "BRB",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 109
+ },
+ {
+  "Entity": "Belgium",
+  "Code": "BEL",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 86
+ },
+ {
+  "Entity": "Belize",
+  "Code": "BLZ",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 122
+ },
+ {
+  "Entity": "Benin",
+  "Code": "BEN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1351
+ },
+ {
+  "Entity": "Bermuda",
+  "Code": "BMU",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 4
+ },
+ {
+  "Entity": "Bosnia and Herzegovina",
+  "Code": "BIH",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 407
+ },
+ {
+  "Entity": "Brazil",
+  "Code": "BRA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 14804
+ },
+ {
+  "Entity": "British Virgin Islands",
+  "Code": "VGB",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2
+ },
+ {
+  "Entity": "Brunei",
+  "Code": "BRN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 3
+ },
+ {
+  "Entity": "Bulgaria",
+  "Code": "BGR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 588
+ },
+ {
+  "Entity": "Cambodia",
+  "Code": "KHM",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 932
+ },
+ {
+  "Entity": "Cameroon",
+  "Code": "CMR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 87
+ },
+ {
+  "Entity": "Canada",
+  "Code": "CAN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 25
+ },
+ {
+  "Entity": "Cape Verde",
+  "Code": "CPV",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 294
+ },
+ {
+  "Entity": "Cayman Islands",
+  "Code": "CYM",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 3
+ },
+ {
+  "Entity": "Channel Islands",
+  "Code": "OWID_CIS",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 9
+ },
+ {
+  "Entity": "Chile",
+  "Code": "CHL",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 683
+ },
+ {
+  "Entity": "China",
+  "Code": "CHN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 276966
+ },
+ {
+  "Entity": "Christmas Island",
+  "Code": "CXR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 0
+ },
+ {
+  "Entity": "Cocos Islands",
+  "Code": "CCK",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 0
+ },
+ {
+  "Entity": "Colombia",
+  "Code": "COL",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2895
+ },
+ {
+  "Entity": "Comoros",
+  "Code": "COM",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1822
+ },
+ {
+  "Entity": "Congo",
+  "Code": "COG",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 527
+ },
+ {
+  "Entity": "Cook Islands",
+  "Code": "COK",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 13
+ },
+ {
+  "Entity": "Costa Rica",
+  "Code": "CRI",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1322
+ },
+ {
+  "Entity": "Cote d'Ivoire",
+  "Code": "CIV",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 611
+ },
+ {
+  "Entity": "Croatia",
+  "Code": "HRV",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 517
+ },
+ {
+  "Entity": "Cuba",
+  "Code": "CUB",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2846
+ },
+ {
+  "Entity": "Curacao",
+  "Code": "CUW",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 8
+ },
+ {
+  "Entity": "Cyprus",
+  "Code": "CYP",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 57
+ },
+ {
+  "Entity": "Democratic Republic of Congo",
+  "Code": "COD",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 478
+ },
+ {
+  "Entity": "Denmark",
+  "Code": "DNK",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 56
+ },
+ {
+  "Entity": "Djibouti",
+  "Code": "DJI",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 544
+ },
+ {
+  "Entity": "Dominica",
+  "Code": "DMA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 25
+ },
+ {
+  "Entity": "Dominican Republic",
+  "Code": "DOM",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 3713
+ },
+ {
+  "Entity": "Ecuador",
+  "Code": "ECU",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 3435
+ },
+ {
+  "Entity": "Egypt",
+  "Code": "EGY",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 30367
+ },
+ {
+  "Entity": "El Salvador",
+  "Code": "SLV",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 3729
+ },
+ {
+  "Entity": "Equatorial Guinea",
+  "Code": "GNQ",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 188
+ },
+ {
+  "Entity": "Eritrea",
+  "Code": "ERI",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 511
+ },
+ {
+  "Entity": "Estonia",
+  "Code": "EST",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 188
+ },
+ {
+  "Entity": "Faeroe Islands",
+  "Code": "FRO",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 3
+ },
+ {
+  "Entity": "Falkland Islands",
+  "Code": "FLK",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 0
+ },
+ {
+  "Entity": "Fiji",
+  "Code": "FJI",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1547
+ },
+ {
+  "Entity": "Finland",
+  "Code": "FIN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 157
+ },
+ {
+  "Entity": "France",
+  "Code": "FRA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 757
+ },
+ {
+  "Entity": "French Guiana",
+  "Code": "GUF",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 74
+ },
+ {
+  "Entity": "French Polynesia",
+  "Code": "PYF",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 4
+ },
+ {
+  "Entity": "Gabon",
+  "Code": "GAB",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 191
+ },
+ {
+  "Entity": "Gambia",
+  "Code": "GMB",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 616
+ },
+ {
+  "Entity": "Georgia",
+  "Code": "GEO",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 454
+ },
+ {
+  "Entity": "Germany",
+  "Code": "DEU",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 981
+ },
+ {
+  "Entity": "Ghana",
+  "Code": "GHA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2876
+ },
+ {
+  "Entity": "Gibraltar",
+  "Code": "GIB",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2
+ },
+ {
+  "Entity": "Greece",
+  "Code": "GRC",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 447
+ },
+ {
+  "Entity": "Greenland",
+  "Code": "GRL",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 3
+ },
+ {
+  "Entity": "Grenada",
+  "Code": "GRD",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 71
+ },
+ {
+  "Entity": "Guadeloupe",
+  "Code": "GLP",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 206
+ },
+ {
+  "Entity": "Guam",
+  "Code": "GUM",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 12
+ },
+ {
+  "Entity": "Guatemala",
+  "Code": "GTM",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2875
+ },
+ {
+  "Entity": "Guernsey",
+  "Code": "GGY",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 3
+ },
+ {
+  "Entity": "Guinea",
+  "Code": "GIN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 581
+ },
+ {
+  "Entity": "Guinea-Bissau",
+  "Code": "GNB",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 636
+ },
+ {
+  "Entity": "Guyana",
+  "Code": "GUY",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1319
+ },
+ {
+  "Entity": "Haiti",
+  "Code": "HTI",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 4628
+ },
+ {
+  "Entity": "Honduras",
+  "Code": "HND",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 3003
+ },
+ {
+  "Entity": "Hong Kong",
+  "Code": "HKG",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 895
+ },
+ {
+  "Entity": "Iceland",
+  "Code": "ISL",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 19
+ },
+ {
+  "Entity": "India",
+  "Code": "IND",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 18836
+ },
+ {
+  "Entity": "Indonesia",
+  "Code": "IDN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 101019
+ },
+ {
+  "Entity": "Iran",
+  "Code": "IRN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 7769
+ },
+ {
+  "Entity": "Iraq",
+  "Code": "IRQ",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 489
+ },
+ {
+  "Entity": "Ireland",
+  "Code": "IRL",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 368
+ },
+ {
+  "Entity": "Israel",
+  "Code": "ISR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 597
+ },
+ {
+  "Entity": "Italy",
+  "Code": "ITA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1029
+ },
+ {
+  "Entity": "Jamaica",
+  "Code": "JAM",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 315
+ },
+ {
+  "Entity": "Japan",
+  "Code": "JPN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 4494
+ },
+ {
+  "Entity": "Jordan",
+  "Code": "JOR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 55
+ },
+ {
+  "Entity": "Kenya",
+  "Code": "KEN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 712
+ },
+ {
+  "Entity": "Kiribati",
+  "Code": "KIR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 96
+ },
+ {
+  "Entity": "Kuwait",
+  "Code": "KWT",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 361
+ },
+ {
+  "Entity": "Latvia",
+  "Code": "LVA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 323
+ },
+ {
+  "Entity": "Lebanon",
+  "Code": "LBN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1502
+ },
+ {
+  "Entity": "Liberia",
+  "Code": "LBR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1781
+ },
+ {
+  "Entity": "Libya",
+  "Code": "LBY",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1657
+ },
+ {
+  "Entity": "Lithuania",
+  "Code": "LTU",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 109
+ },
+ {
+  "Entity": "Macao",
+  "Code": "MAC",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 22
+ },
+ {
+  "Entity": "Madagascar",
+  "Code": "MDG",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1084
+ },
+ {
+  "Entity": "Malaysia",
+  "Code": "MYS",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 29419
+ },
+ {
+  "Entity": "Maldives",
+  "Code": "MDV",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 988
+ },
+ {
+  "Entity": "Malta",
+  "Code": "MLT",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 82
+ },
+ {
+  "Entity": "Marshall Islands",
+  "Code": "MHL",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1
+ },
+ {
+  "Entity": "Martinique",
+  "Code": "MTQ",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 24
+ },
+ {
+  "Entity": "Mauritania",
+  "Code": "MRT",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 435
+ },
+ {
+  "Entity": "Mauritius",
+  "Code": "MUS",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 176
+ },
+ {
+  "Entity": "Mexico",
+  "Code": "MEX",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 3182
+ },
+ {
+  "Entity": "Micronesia (country)",
+  "Code": "FSM",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 151
+ },
+ {
+  "Entity": "Monaco",
+  "Code": "MCO",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2
+ },
+ {
+  "Entity": "Montenegro",
+  "Code": "MNE",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 139
+ },
+ {
+  "Entity": "Montserrat",
+  "Code": "MSR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1
+ },
+ {
+  "Entity": "Morocco",
+  "Code": "MAR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 9739
+ },
+ {
+  "Entity": "Mozambique",
+  "Code": "MOZ",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1444
+ },
+ {
+  "Entity": "Myanmar",
+  "Code": "MMR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 14391
+ },
+ {
+  "Entity": "Namibia",
+  "Code": "NAM",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 172
+ },
+ {
+  "Entity": "Nauru",
+  "Code": "NRU",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 17
+ },
+ {
+  "Entity": "Netherlands",
+  "Code": "NLD",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 87
+ },
+ {
+  "Entity": "Netherlands Antilles",
+  "Code": "ANT",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 13
+ },
+ {
+  "Entity": "New Caledonia",
+  "Code": "NCL",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 15
+ },
+ {
+  "Entity": "New Zealand",
+  "Code": "NZL",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 292
+ },
+ {
+  "Entity": "Nicaragua",
+  "Code": "NIC",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2651
+ },
+ {
+  "Entity": "Nigeria",
+  "Code": "NGA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2674
+ },
+ {
+  "Entity": "Niue",
+  "Code": "NIU",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 0
+ },
+ {
+  "Entity": "Norfolk Island",
+  "Code": "NFK",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2
+ },
+ {
+  "Entity": "North Korea",
+  "Code": "PRK",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 9557
+ },
+ {
+  "Entity": "Northern Mariana Islands",
+  "Code": "MNP",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 7
+ },
+ {
+  "Entity": "Norway",
+  "Code": "NOR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 264
+ },
+ {
+  "Entity": "Oman",
+  "Code": "OMN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 146
+ },
+ {
+  "Entity": "Pakistan",
+  "Code": "PAK",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 15089
+ },
+ {
+  "Entity": "Palau",
+  "Code": "PLW",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 22
+ },
+ {
+  "Entity": "Palestine",
+  "Code": "PSE",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 176
+ },
+ {
+  "Entity": "Panama",
+  "Code": "PAN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 108
+ },
+ {
+  "Entity": "Papua New Guinea",
+  "Code": "PNG",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2821
+ },
+ {
+  "Entity": "Peru",
+  "Code": "PER",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 6106
+ },
+ {
+  "Entity": "Philippines",
+  "Code": "PHL",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 59153
+ },
+ {
+  "Entity": "Poland",
+  "Code": "POL",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 493
+ },
+ {
+  "Entity": "Portugal",
+  "Code": "PRT",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 515
+ },
+ {
+  "Entity": "Puerto Rico",
+  "Code": "PRI",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 519
+ },
+ {
+  "Entity": "Qatar",
+  "Code": "QAT",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 24
+ },
+ {
+  "Entity": "Reunion",
+  "Code": "REU",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 27
+ },
+ {
+  "Entity": "Romania",
+  "Code": "ROU",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 113
+ },
+ {
+  "Entity": "Russia",
+  "Code": "RUS",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2536
+ },
+ {
+  "Entity": "Saint Helena",
+  "Code": "SHN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 3
+ },
+ {
+  "Entity": "Saint Kitts and Nevis",
+  "Code": "KNA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 22
+ },
+ {
+  "Entity": "Saint Lucia",
+  "Code": "LCA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 211
+ },
+ {
+  "Entity": "Saint Pierre and Miquelon",
+  "Code": "SPM",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 0
+ },
+ {
+  "Entity": "Saint Vincent and the Grenadines",
+  "Code": "VCT",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 7
+ },
+ {
+  "Entity": "Samoa",
+  "Code": "WSM",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 161
+ },
+ {
+  "Entity": "Sao Tome and Principe",
+  "Code": "STP",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 16
+ },
+ {
+  "Entity": "Saudi Arabia",
+  "Code": "SAU",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 645
+ },
+ {
+  "Entity": "Senegal",
+  "Code": "SEN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 8001
+ },
+ {
+  "Entity": "Seychelles",
+  "Code": "SYC",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 145
+ },
+ {
+  "Entity": "Sierra Leone",
+  "Code": "SLE",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1143
+ },
+ {
+  "Entity": "Singapore",
+  "Code": "SGP",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 203
+ },
+ {
+  "Entity": "Sint Maarten (Dutch part)",
+  "Code": "SXM",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2
+ },
+ {
+  "Entity": "Slovenia",
+  "Code": "SVN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 17
+ },
+ {
+  "Entity": "Solomon Islands",
+  "Code": "SLB",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 64
+ },
+ {
+  "Entity": "Somalia",
+  "Code": "SOM",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 3188
+ },
+ {
+  "Entity": "South Africa",
+  "Code": "ZAF",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 19784
+ },
+ {
+  "Entity": "South Korea",
+  "Code": "KOR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 106
+ },
+ {
+  "Entity": "Spain",
+  "Code": "ESP",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 144
+ },
+ {
+  "Entity": "Sri Lanka",
+  "Code": "LKA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 49968
+ },
+ {
+  "Entity": "Sudan",
+  "Code": "SDN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 72
+ },
+ {
+  "Entity": "Suriname",
+  "Code": "SUR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 124
+ },
+ {
+  "Entity": "Sweden",
+  "Code": "SWE",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 68
+ },
+ {
+  "Entity": "Syria",
+  "Code": "SYR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 4959
+ },
+ {
+  "Entity": "Taiwan",
+  "Code": "TWN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1436
+ },
+ {
+  "Entity": "Tanzania",
+  "Code": "TZA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1526
+ },
+ {
+  "Entity": "Thailand",
+  "Code": "THA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 32274
+ },
+ {
+  "Entity": "Togo",
+  "Code": "TGO",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1112
+ },
+ {
+  "Entity": "Tokelau",
+  "Code": "TKL",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1
+ },
+ {
+  "Entity": "Tonga",
+  "Code": "TON",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 208
+ },
+ {
+  "Entity": "Trinidad and Tobago",
+  "Code": "TTO",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2954
+ },
+ {
+  "Entity": "Tunisia",
+  "Code": "TUN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 7358
+ },
+ {
+  "Entity": "Turkey",
+  "Code": "TUR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 1526
+ },
+ {
+  "Entity": "Turks and Caicos Islands",
+  "Code": "TCA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2
+ },
+ {
+  "Entity": "Tuvalu",
+  "Code": "TUV",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 14
+ },
+ {
+  "Entity": "Ukraine",
+  "Code": "UKR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 4044
+ },
+ {
+  "Entity": "United Arab Emirates",
+  "Code": "ARE",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 95
+ },
+ {
+  "Entity": "United Kingdom",
+  "Code": "GBR",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 2121
+ },
+ {
+  "Entity": "United States",
+  "Code": "USA",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 8649
+ },
+ {
+  "Entity": "Uruguay",
+  "Code": "URY",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 677
+ },
+ {
+  "Entity": "Vanuatu",
+  "Code": "VUT",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 706
+ },
+ {
+  "Entity": "Venezuela",
+  "Code": "VEN",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 3214
+ },
+ {
+  "Entity": "Vietnam",
+  "Code": "VNM",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 57588
+ },
+ {
+  "Entity": "Yemen",
+  "Code": "YEM",
+  "Year": 2010,
+  "Mismanaged waste (% global total)": 531
+ }
+],
+"Hoja1":[]
+}
