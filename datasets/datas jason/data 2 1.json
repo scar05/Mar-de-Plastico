@@ -1,0 +1,401 @@
+{
+"global-plastics-production":[
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1950,
+  "Global plastics production (million tonnes)": 2000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1951,
+  "Global plastics production (million tonnes)": 2000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1952,
+  "Global plastics production (million tonnes)": 2000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1953,
+  "Global plastics production (million tonnes)": 3000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1954,
+  "Global plastics production (million tonnes)": 3000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1955,
+  "Global plastics production (million tonnes)": 4000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1956,
+  "Global plastics production (million tonnes)": 5000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1957,
+  "Global plastics production (million tonnes)": 5000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1958,
+  "Global plastics production (million tonnes)": 6000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1959,
+  "Global plastics production (million tonnes)": 7000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1960,
+  "Global plastics production (million tonnes)": 8000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1961,
+  "Global plastics production (million tonnes)": 9000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1962,
+  "Global plastics production (million tonnes)": 11000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1963,
+  "Global plastics production (million tonnes)": 13000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1964,
+  "Global plastics production (million tonnes)": 15000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1965,
+  "Global plastics production (million tonnes)": 17000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1966,
+  "Global plastics production (million tonnes)": 20000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1967,
+  "Global plastics production (million tonnes)": 23000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1968,
+  "Global plastics production (million tonnes)": 27000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1969,
+  "Global plastics production (million tonnes)": 32000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1970,
+  "Global plastics production (million tonnes)": 35000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1971,
+  "Global plastics production (million tonnes)": 38000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1972,
+  "Global plastics production (million tonnes)": 44000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1973,
+  "Global plastics production (million tonnes)": 51000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1974,
+  "Global plastics production (million tonnes)": 52000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1975,
+  "Global plastics production (million tonnes)": 46000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1976,
+  "Global plastics production (million tonnes)": 54000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1977,
+  "Global plastics production (million tonnes)": 59000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1978,
+  "Global plastics production (million tonnes)": 64000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1979,
+  "Global plastics production (million tonnes)": 71000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1980,
+  "Global plastics production (million tonnes)": 70000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1981,
+  "Global plastics production (million tonnes)": 72000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1982,
+  "Global plastics production (million tonnes)": 73000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1983,
+  "Global plastics production (million tonnes)": 80000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1984,
+  "Global plastics production (million tonnes)": 86000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1985,
+  "Global plastics production (million tonnes)": 90000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1986,
+  "Global plastics production (million tonnes)": 96000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1987,
+  "Global plastics production (million tonnes)": 104000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1988,
+  "Global plastics production (million tonnes)": 110000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1989,
+  "Global plastics production (million tonnes)": 114000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1990,
+  "Global plastics production (million tonnes)": 120000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1991,
+  "Global plastics production (million tonnes)": 124000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1992,
+  "Global plastics production (million tonnes)": 132000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1993,
+  "Global plastics production (million tonnes)": 137000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1994,
+  "Global plastics production (million tonnes)": 151000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1995,
+  "Global plastics production (million tonnes)": 156000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1996,
+  "Global plastics production (million tonnes)": 168000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1997,
+  "Global plastics production (million tonnes)": 180000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1998,
+  "Global plastics production (million tonnes)": 188000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 1999,
+  "Global plastics production (million tonnes)": 202000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2000,
+  "Global plastics production (million tonnes)": 213000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2001,
+  "Global plastics production (million tonnes)": 218000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2002,
+  "Global plastics production (million tonnes)": 231000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2003,
+  "Global plastics production (million tonnes)": 241000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2004,
+  "Global plastics production (million tonnes)": 256000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2005,
+  "Global plastics production (million tonnes)": 263000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2006,
+  "Global plastics production (million tonnes)": 280000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2007,
+  "Global plastics production (million tonnes)": 295000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2008,
+  "Global plastics production (million tonnes)": 281000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2009,
+  "Global plastics production (million tonnes)": 288000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2010,
+  "Global plastics production (million tonnes)": 313000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2011,
+  "Global plastics production (million tonnes)": 325000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2012,
+  "Global plastics production (million tonnes)": 338000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2013,
+  "Global plastics production (million tonnes)": 352000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2014,
+  "Global plastics production (million tonnes)": 367000000
+ },
+ {
+  "Entity": "World",
+  "Code": "OWID_WRL",
+  "Year": 2015,
+  "Global plastics production (million tonnes)": 381000000
+ }
+],
+"Hoja1":[]
+}

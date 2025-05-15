@@ -1,0 +1,1121 @@
+{
+"plastic-waste-per-capita":[
+ {
+  "Entity": "Albania",
+  "Code": "ALB",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 69
+ },
+ {
+  "Entity": "Algeria",
+  "Code": "DZA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Angola",
+  "Code": "AGO",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 62
+ },
+ {
+  "Entity": "Anguilla",
+  "Code": "AIA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Antigua and Barbuda",
+  "Code": "ATG",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 66
+ },
+ {
+  "Entity": "Argentina",
+  "Code": "ARG",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 183
+ },
+ {
+  "Entity": "Aruba",
+  "Code": "ABW",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Australia",
+  "Code": "AUS",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 112
+ },
+ {
+  "Entity": "Bahamas",
+  "Code": "BHS",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 39
+ },
+ {
+  "Entity": "Bahrain",
+  "Code": "BHR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 132
+ },
+ {
+  "Entity": "Bangladesh",
+  "Code": "BGD",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 34
+ },
+ {
+  "Entity": "Barbados",
+  "Code": "BRB",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 57
+ },
+ {
+  "Entity": "Belgium",
+  "Code": "BEL",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 8
+ },
+ {
+  "Entity": "Belize",
+  "Code": "BLZ",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 172
+ },
+ {
+  "Entity": "Benin",
+  "Code": "BEN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 43
+ },
+ {
+  "Entity": "Bermuda",
+  "Code": "BMU",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Bosnia and Herzegovina",
+  "Code": "BIH",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Brazil",
+  "Code": "BRA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 165
+ },
+ {
+  "Entity": "British Virgin Islands",
+  "Code": "VGB",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Brunei",
+  "Code": "BRN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 26
+ },
+ {
+  "Entity": "Bulgaria",
+  "Code": "BGR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 154
+ },
+ {
+  "Entity": "Cambodia",
+  "Code": "KHM",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 66
+ },
+ {
+  "Entity": "Cameroon",
+  "Code": "CMR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 46
+ },
+ {
+  "Entity": "Canada",
+  "Code": "CAN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 93
+ },
+ {
+  "Entity": "Cape Verde",
+  "Code": "CPV",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 65
+ },
+ {
+  "Entity": "Cayman Islands",
+  "Code": "CYM",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Channel Islands",
+  "Code": "OWID_CIS",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Chile",
+  "Code": "CHL",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 119
+ },
+ {
+  "Entity": "China",
+  "Code": "CHN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 121
+ },
+ {
+  "Entity": "Christmas Island",
+  "Code": "CXR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Cocos Islands",
+  "Code": "CCK",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Colombia",
+  "Code": "COL",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Comoros",
+  "Code": "COM",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 201
+ },
+ {
+  "Entity": "Congo",
+  "Code": "COG",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 69
+ },
+ {
+  "Entity": "Cook Islands",
+  "Code": "COK",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Costa Rica",
+  "Code": "CRI",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 258
+ },
+ {
+  "Entity": "Cote d'Ivoire",
+  "Code": "CIV",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "Croatia",
+  "Code": "HRV",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Cuba",
+  "Code": "CUB",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 89
+ },
+ {
+  "Entity": "Curacao",
+  "Code": "CUW",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Cyprus",
+  "Code": "CYP",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 248
+ },
+ {
+  "Entity": "Democratic Republic of Congo",
+  "Code": "COD",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 45
+ },
+ {
+  "Entity": "Denmark",
+  "Code": "DNK",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 47
+ },
+ {
+  "Entity": "Djibouti",
+  "Code": "DJI",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "Dominica",
+  "Code": "DMA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 149
+ },
+ {
+  "Entity": "Dominican Republic",
+  "Code": "DOM",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Ecuador",
+  "Code": "ECU",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 147
+ },
+ {
+  "Entity": "Egypt",
+  "Code": "EGY",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 178
+ },
+ {
+  "Entity": "El Salvador",
+  "Code": "SLV",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 147
+ },
+ {
+  "Entity": "Equatorial Guinea",
+  "Code": "GNQ",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Eritrea",
+  "Code": "ERI",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 45
+ },
+ {
+  "Entity": "Estonia",
+  "Code": "EST",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 176
+ },
+ {
+  "Entity": "Faeroe Islands",
+  "Code": "FRO",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Falkland Islands",
+  "Code": "FLK",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Fiji",
+  "Code": "FJI",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 189
+ },
+ {
+  "Entity": "Finland",
+  "Code": "FIN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 234
+ },
+ {
+  "Entity": "France",
+  "Code": "FRA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 192
+ },
+ {
+  "Entity": "French Guiana",
+  "Code": "GUF",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "French Polynesia",
+  "Code": "PYF",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Gabon",
+  "Code": "GAB",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 54
+ },
+ {
+  "Entity": "Gambia",
+  "Code": "GMB",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 48
+ },
+ {
+  "Entity": "Georgia",
+  "Code": "GEO",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 68
+ },
+ {
+  "Entity": "Germany",
+  "Code": "DEU",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 485
+ },
+ {
+  "Entity": "Ghana",
+  "Code": "GHA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 4
+ },
+ {
+  "Entity": "Gibraltar",
+  "Code": "GIB",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Greece",
+  "Code": "GRC",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 2
+ },
+ {
+  "Entity": "Greenland",
+  "Code": "GRL",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Grenada",
+  "Code": "GRD",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 325
+ },
+ {
+  "Entity": "Guadeloupe",
+  "Code": "GLP",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Guam",
+  "Code": "GUM",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Guatemala",
+  "Code": "GTM",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 28
+ },
+ {
+  "Entity": "Guernsey",
+  "Code": "GGY",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Guinea",
+  "Code": "GIN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 3
+ },
+ {
+  "Entity": "Guinea-Bissau",
+  "Code": "GNB",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 54
+ },
+ {
+  "Entity": "Guyana",
+  "Code": "GUY",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 586
+ },
+ {
+  "Entity": "Haiti",
+  "Code": "HTI",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 9
+ },
+ {
+  "Entity": "Honduras",
+  "Code": "HND",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 189
+ },
+ {
+  "Entity": "Hong Kong",
+  "Code": "HKG",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 398
+ },
+ {
+  "Entity": "Iceland",
+  "Code": "ISL",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 281
+ },
+ {
+  "Entity": "India",
+  "Code": "IND",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 1
+ },
+ {
+  "Entity": "Indonesia",
+  "Code": "IDN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 57
+ },
+ {
+  "Entity": "Iran",
+  "Code": "IRN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Iraq",
+  "Code": "IRQ",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "Ireland",
+  "Code": "IRL",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 43
+ },
+ {
+  "Entity": "Israel",
+  "Code": "ISR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 297
+ },
+ {
+  "Entity": "Italy",
+  "Code": "ITA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 134
+ },
+ {
+  "Entity": "Jamaica",
+  "Code": "JAM",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 34
+ },
+ {
+  "Entity": "Japan",
+  "Code": "JPN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 171
+ },
+ {
+  "Entity": "Jordan",
+  "Code": "JOR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Kenya",
+  "Code": "KEN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 27
+ },
+ {
+  "Entity": "Kiribati",
+  "Code": "KIR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "Kuwait",
+  "Code": "KWT",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 686
+ },
+ {
+  "Entity": "Latvia",
+  "Code": "LVA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 124
+ },
+ {
+  "Entity": "Lebanon",
+  "Code": "LBN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 94
+ },
+ {
+  "Entity": "Liberia",
+  "Code": "LBR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 84
+ },
+ {
+  "Entity": "Libya",
+  "Code": "LBY",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Lithuania",
+  "Code": "LTU",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 132
+ },
+ {
+  "Entity": "Macao",
+  "Code": "MAC",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 368
+ },
+ {
+  "Entity": "Madagascar",
+  "Code": "MDG",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 16
+ },
+ {
+  "Entity": "Malaysia",
+  "Code": "MYS",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 198
+ },
+ {
+  "Entity": "Maldives",
+  "Code": "MDV",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 322
+ },
+ {
+  "Entity": "Malta",
+  "Code": "MLT",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 214
+ },
+ {
+  "Entity": "Marshall Islands",
+  "Code": "MHL",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 192
+ },
+ {
+  "Entity": "Martinique",
+  "Code": "MTQ",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Mauritania",
+  "Code": "MRT",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 45
+ },
+ {
+  "Entity": "Mauritius",
+  "Code": "MUS",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 23
+ },
+ {
+  "Entity": "Mexico",
+  "Code": "MEX",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 87
+ },
+ {
+  "Entity": "Micronesia (country)",
+  "Code": "FSM",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "Monaco",
+  "Code": "MCO",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Montenegro",
+  "Code": "MNE",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Montserrat",
+  "Code": "MSR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Morocco",
+  "Code": "MAR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 73
+ },
+ {
+  "Entity": "Mozambique",
+  "Code": "MOZ",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 15
+ },
+ {
+  "Entity": "Myanmar",
+  "Code": "MMR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 75
+ },
+ {
+  "Entity": "Namibia",
+  "Code": "NAM",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Nauru",
+  "Code": "NRU",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Netherlands",
+  "Code": "NLD",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 424
+ },
+ {
+  "Entity": "Netherlands Antilles",
+  "Code": "ANT",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "New Caledonia",
+  "Code": "NCL",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "New Zealand",
+  "Code": "NZL",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 331
+ },
+ {
+  "Entity": "Nicaragua",
+  "Code": "NIC",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 143
+ },
+ {
+  "Entity": "Nigeria",
+  "Code": "NGA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "Niue",
+  "Code": "NIU",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Norfolk Island",
+  "Code": "NFK",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "North Korea",
+  "Code": "PRK",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 54
+ },
+ {
+  "Entity": "Northern Mariana Islands",
+  "Code": "MNP",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Norway",
+  "Code": "NOR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 28
+ },
+ {
+  "Entity": "Oman",
+  "Code": "OMN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 84
+ },
+ {
+  "Entity": "Pakistan",
+  "Code": "PAK",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "Palau",
+  "Code": "PLW",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Palestine",
+  "Code": "PSE",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 63
+ },
+ {
+  "Entity": "Panama",
+  "Code": "PAN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 145
+ },
+ {
+  "Entity": "Papua New Guinea",
+  "Code": "PNG",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "Peru",
+  "Code": "PER",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Philippines",
+  "Code": "PHL",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 75
+ },
+ {
+  "Entity": "Poland",
+  "Code": "POL",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 97
+ },
+ {
+  "Entity": "Portugal",
+  "Code": "PRT",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 265
+ },
+ {
+  "Entity": "Puerto Rico",
+  "Code": "PRI",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Qatar",
+  "Code": "QAT",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 16
+ },
+ {
+  "Entity": "Reunion",
+  "Code": "REU",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Romania",
+  "Code": "ROU",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 42
+ },
+ {
+  "Entity": "Russia",
+  "Code": "RUS",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 112
+ },
+ {
+  "Entity": "Saint Helena",
+  "Code": "SHN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Saint Kitts and Nevis",
+  "Code": "KNA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 654
+ },
+ {
+  "Entity": "Saint Lucia",
+  "Code": "LCA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 522
+ },
+ {
+  "Entity": "Saint Pierre and Miquelon",
+  "Code": "SPM",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Saint Vincent and the Grenadines",
+  "Code": "VCT",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 221
+ },
+ {
+  "Entity": "Samoa",
+  "Code": "WSM",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "Sao Tome and Principe",
+  "Code": "STP",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "Saudi Arabia",
+  "Code": "SAU",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 156
+ },
+ {
+  "Entity": "Senegal",
+  "Code": "SEN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "Seychelles",
+  "Code": "SYC",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 358
+ },
+ {
+  "Entity": "Sierra Leone",
+  "Code": "SLE",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 41
+ },
+ {
+  "Entity": "Singapore",
+  "Code": "SGP",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 194
+ },
+ {
+  "Entity": "Sint Maarten (Dutch part)",
+  "Code": "SXM",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Slovenia",
+  "Code": "SVN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 145
+ },
+ {
+  "Entity": "Solomon Islands",
+  "Code": "SLB",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "Somalia",
+  "Code": "SOM",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 54
+ },
+ {
+  "Entity": "South Africa",
+  "Code": "ZAF",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 24
+ },
+ {
+  "Entity": "South Korea",
+  "Code": "KOR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 112
+ },
+ {
+  "Entity": "Spain",
+  "Code": "ESP",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 277
+ },
+ {
+  "Entity": "Sri Lanka",
+  "Code": "LKA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 357
+ },
+ {
+  "Entity": "Sudan",
+  "Code": "SDN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "Suriname",
+  "Code": "SUR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 163
+ },
+ {
+  "Entity": "Sweden",
+  "Code": "SWE",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 48
+ },
+ {
+  "Entity": "Syria",
+  "Code": "SYR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 178
+ },
+ {
+  "Entity": "Taiwan",
+  "Code": "TWN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Tanzania",
+  "Code": "TZA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 23
+ },
+ {
+  "Entity": "Thailand",
+  "Code": "THA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Togo",
+  "Code": "TGO",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 57
+ },
+ {
+  "Entity": "Tokelau",
+  "Code": "TKL",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "Tonga",
+  "Code": "TON",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 223
+ },
+ {
+  "Entity": "Trinidad and Tobago",
+  "Code": "TTO",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 29
+ },
+ {
+  "Entity": "Tunisia",
+  "Code": "TUN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Turkey",
+  "Code": "TUR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 212
+ },
+ {
+  "Entity": "Turks and Caicos Islands",
+  "Code": "TCA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Tuvalu",
+  "Code": "TUV",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 144
+ },
+ {
+  "Entity": "Ukraine",
+  "Code": "UKR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "United Arab Emirates",
+  "Code": "ARE",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 199
+ },
+ {
+  "Entity": "United Kingdom",
+  "Code": "GBR",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 215
+ },
+ {
+  "Entity": "United States",
+  "Code": "USA",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 335
+ },
+ {
+  "Entity": "Uruguay",
+  "Code": "URY",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Vanuatu",
+  "Code": "VUT",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 295
+ },
+ {
+  "Entity": "Venezuela",
+  "Code": "VEN",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 252
+ },
+ {
+  "Entity": "Vietnam",
+  "Code": "VNM",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ },
+ {
+  "Entity": "Yemen",
+  "Code": "YEM",
+  "Year": 2010,
+  "Per capita plastic waste (kg\/person\/day)": 103
+ }
+],
+"Hoja1":[]
+}
