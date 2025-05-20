@@ -1,6 +1,7 @@
 paleta = {
     base: "#465778",
-    pais_seleccionado: "#ef8762"
+    pais_seleccionado: "#ef8762",
+    gris_no_importante: "#E6E6E6"
 }
 
 function chart () {
@@ -85,21 +86,30 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     // Load the CSV mapping file
-    const countryMap = await fetch('Resources/map/mapping.csv')
-        .then(response => response.text())
-        .then(csvText => {
-            const rows = csvText.split('\n').slice(1); // Skip the header row
-            return rows.reduce((map, row) => {
-                const [id, name] = row.split(',');
-                map[id.trim().replace(/^"|"$/g, '')] = name.trim().replace(/^"|"$/g, '');
-                return map;
-            }, {});
-        });
+    let countryMap = {};
+    try {
+        countryMap = await fetch('Resources/map/mapping.csv')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.text();
+            })
+            .then(csvText => {
+                const rows = csvText.split('\n').slice(1); // Skip the header row
+                return rows.reduce((map, row) => {
+                    const [id, name] = row.split(',');
+                    map[id.trim().replace(/^"|"$/g, '')] = name.trim().replace(/^"|"$/g, '');
+                    return map;
+                }, {});
+            });
+    } catch (error) {
+        console.error('Failed to load the mapping file:', error);
+    }
 
     // Select all countries as a D3 selection
     const countries = d3.selectAll('.country');
 
-    // Set a random opacity for each country
     countries.each(function () {
         //const randomOpacity = Math.random() * (1 - 0.4) + 0.4; // Generate a random value between 0.6 and 1
         //d3.select(this).style("opacity", randomOpacity);
@@ -123,15 +133,19 @@ document.addEventListener('DOMContentLoaded', async () => {
         const country = d3.select(`#${countryId}`);
         if (!country.empty()) {
             const bbox = country.node().getBBox();
-            const padding = 20;
+            const padding = 10; // Add some padding around the country
             const x = bbox.x - padding;
             const y = bbox.y - padding;
             const width = bbox.width + padding * 2;
             const height = bbox.height + padding * 2;
 
+            // Adjust the x-coordinate to position the country on the left side
+            const viewBoxX = x - (width * 0.75); // Shift the country to the left
+            const viewBoxY = y;
+
             svg.transition()
                 .duration(750)
-                .attr("viewBox", `${x} ${y} ${width} ${height}`);
+                .attr("viewBox", `${viewBoxX} ${viewBoxY} ${width} ${height}`);
         }
     }
 
@@ -147,9 +161,35 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Add the 'selected' class to the clicked country
         countryGroup.classed("selected", true);
 
+        // Handle <g> and <path> objects
+        if (countryGroup.node().tagName === "g") {
+            // If it's a <g>, set the color for all child <path> elements
+            countryGroup.selectAll("path").style("fill", paleta.pais_seleccionado);
+        } else if (countryGroup.node().tagName === "path") {
+            // If it's a <path>, set the color directly
+            countryGroup.style("fill", paleta.pais_seleccionado);
+        }
+
+        // Set all other countries to paleta.gris_no_importante
+        countries.filter(function () {
+            return !d3.select(this).classed("selected");
+        }).each(function () {
+            const otherCountry = d3.select(this);
+            if (otherCountry.node().tagName === "g") {
+                // If it's a <g>, set the color for all child <path> elements
+                otherCountry.selectAll("path").style("fill", paleta.gris_no_importante);
+            } else if (otherCountry.node().tagName === "path") {
+                // If it's a <path>, set the color directly
+                otherCountry.style("fill", paleta.gris_no_importante);
+            }
+        });
+
+        // Remove hover effect by disabling pointer events for all countries
+        //countries.style("pointer-events", "none");
+        //countryGroup.style("pointer-events", "auto"); // Keep pointer events for the selected country
+
         if (countryName) {
             console.log(`Country ID: ${countryId}, Country Name: ${countryName}`);
-            
         } else {
             console.log(`Country ID: ${countryId}, Country Name: Not Found`);
         }
@@ -161,6 +201,21 @@ document.addEventListener('DOMContentLoaded', async () => {
     svg.on("dblclick", function () {
         // Reset all countries to the base color by removing the 'selected' class
         countries.classed("selected", false);
+
+        // Reset the color of all countries to paleta.base
+        countries.each(function () {
+            const country = d3.select(this);
+            if (country.node().tagName === "g") {
+                // If it's a <g>, reset the color for all child <path> elements
+                country.selectAll("path").style("fill", paleta.base);
+            } else if (country.node().tagName === "path") {
+                // If it's a <path>, reset the color directly
+                country.style("fill", paleta.base);
+            }
+        });
+
+        // Re-enable hover effect by restoring pointer events
+        countries.style("pointer-events", "auto");
 
         // Reset the zoom to the original viewBox
         svg.transition()

@@ -85,19 +85,34 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     // Load the CSV mapping file
-    const countryMap = await fetch('Resources/map/mapping.csv')
-        .then(response => response.text())
-        .then(csvText => {
-            const rows = csvText.split('\n').slice(1); // Skip the header row
-            return rows.reduce((map, row) => {
-                const [id, name] = row.split(',');
-                map[id.trim().replace(/^"|"$/g, '')] = name.trim().replace(/^"|"$/g, '');
-                return map;
-            }, {});
-        });
+    let countryMap = {};
+    try {
+        countryMap = await fetch('Resources/map/mapping.csv')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.text();
+            })
+            .then(csvText => {
+                const rows = csvText.split('\n').slice(1); // Skip the header row
+                return rows.reduce((map, row) => {
+                    const [id, name] = row.split(',');
+                    map[id.trim().replace(/^"|"$/g, '')] = name.trim().replace(/^"|"$/g, '');
+                    return map;
+                }, {});
+            });
+    } catch (error) {
+        console.error('Failed to load the mapping file:', error);
+    }
 
     // Select all countries as a D3 selection
     const countries = d3.selectAll('.country');
+
+    countries.each(function () {
+        //const randomOpacity = Math.random() * (1 - 0.4) + 0.4; // Generate a random value between 0.6 and 1
+        //d3.select(this).style("opacity", randomOpacity);
+    });
 
     // Select the SVG and set up zoom behavior
     const svg = d3.select(".map-svg");
@@ -143,6 +158,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         if (countryName) {
             console.log(`Country ID: ${countryId}, Country Name: ${countryName}`);
+            
         } else {
             console.log(`Country ID: ${countryId}, Country Name: Not Found`);
         }

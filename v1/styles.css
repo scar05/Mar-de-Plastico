@@ -99,7 +99,7 @@ body, html {
 
 /* Hover effect */
 .country:hover path {
-    fill: #ef8762; /* Slightly lighter shade for hover */
+    fill: #ef8762; 
 }
 
 /* Selected country color */
