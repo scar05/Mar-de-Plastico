@@ -89,11 +89,19 @@ document.addEventListener("DOMContentLoaded", async () => {
   const leftPanel = document.querySelector(".basura-container");
   const rightPanel = document.getElementById("info-pais");
 
+  // Select all countries as a D3 selection
+  const countries = d3.selectAll(".country");
+
+  const datosPaisAnual = await fetch("Resources/map/voluntarios_pais.csv")
+    .then((res) => res.text())
+    .then((d) => d3.csvParse(d));
+   
   // Update the year display when the slider value changes
   yearSlider.addEventListener("input", (event) => {
     yearDisplay.textContent = event.target.value;
     actualizarPanelDerecho(selectedCountryId, event.target.value);
     renderizarBasura(selectedCountryId, event.target.value);
+    pintarPaises();
   });
 
   // Cambiar slider al escribir un número
@@ -145,9 +153,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       }, {});
     });
 
-  const datosPaisAnual = await fetch("Resources/map/voluntarios_pais.csv")
-    .then((res) => res.text())
-    .then((d) => d3.csvParse(d));
+
 
   function renderizarBasura(paisId, año) {
     año = String(año);
@@ -230,8 +236,32 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
   }
 
-  // Select all countries as a D3 selection
-  const countries = d3.selectAll(".country");
+  const maxKg = 5000;
+  function pintarPaises() {
+    countries.each(function () {
+        const countryId = d3.select(this).attr("id");
+        const datosPais = datosPaisAnual.find(
+          (d) => d.pais_id === countryId && d.año === yearSlider.value
+        ); 
+
+        console.log(`\nid: ${countryId}. Datos País:`);
+        console.log(datosPais);
+
+        try {
+          const totalKilogramos = +datosPais.Kilogramos || 0; // Default to 0 if no data
+          const opacity = totalKilogramos/maxKg * (1 - 0.4) + 0.4; 
+          d3.select(this).style("opacity", opacity);
+          console.log(`Opacity: ${opacity}`);
+        } catch {
+          console.log("Cant change opacity")
+          d3.select(this).style("opacity", .5);
+        }
+
+        
+  });
+  }
+
+  pintarPaises();
 
   const tooltip = d3.select("#tooltip");
 
