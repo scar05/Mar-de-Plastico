@@ -1,0 +1,517 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.top-image {
+    width: 100%;
+    height: 100vh;
+    background: url('https://i.natgeofe.com/n/e3834f0f-3c42-4648-9344-7102bd6027e8/80621.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 10px; /* Adjust this value to reduce space */
+    padding-bottom: 0; /* Ensure no extra padding */
+}
+
+.top-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* 20% opacity black overlay */
+    z-index: 1;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.top-image h1 {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 6rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin: 0;
+    z-index: 2; /* Ensure the heading is above the overlay */
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation for h1 */
+}
+
+.top-image h2 {
+    position: absolute;
+    top: 53%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 2rem; /* Medium size */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    margin: 0;
+    z-index: 2; /* Ensure the subtitle is above the overlay */
+    font-weight: 500; /* Regular weight for subtitle */
+    opacity: 0; /* Start with 0% opacity */
+    animation: fadeIn 2s ease-in-out;
+    animation-delay: 1s; /* Delay the fade-in of h2 by 1 second */
+    animation-fill-mode: forwards; /* Ensure the final state (opacity: 1) is retained */
+}
+
+/* Base color for countries */
+.country {
+    fill: #465778; /* paleta.base */
+    transition: fill 0.1s ease; /* Smooth transition for color changes */
+}
+
+/* Hover effect */
+.country:hover {
+    fill: #ef8762; /* Slightly lighter shade for hover */
+}
+
+/* Selected country color */
+.country.selected {
+    fill: #ef8762; /* paleta.pais_seleccionado */
+}
+
+.country path,g {
+    fill: #465778; /* Default color for countries */
+    transition: fill 0.1s ease; /* Smooth transition for hover effect */
+}
+
+.country path:hover {
+    fill: #ef8762; /* Slightly brighter color on hover */
+    cursor: pointer; /* Changes the cursor to indicate interactivity */
+}
+
+/* Base color for countries */
+.country path {
+    fill: #465778; /* paleta.base */
+    transition: fill 0.3s ease; /* Smooth transition for color changes */
+}
+
+/* Hover effect */
+.country:hover path {
+    fill: #ef8762; /* Slightly lighter shade for hover */
+}
+
+/* Selected country color */
+.country.selected path {
+    fill: #ef8762; /* paleta.pais_seleccionado */
+}
+
+/* Ensure the wrapper div takes up the full screen */
+.svg-wrapper {
+    width: 100vw; /* Full width of the viewport */
+    height: 90vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align content to the top */
+    overflow: hidden; /* Prevent any overflow */
+    margin-top: 0; /* Remove any top margin */
+    padding-top: 0; /* Ensure no extra padding */
+}
+
+/* Make the SVG scale dynamically to fit the wrapper */
+.map-svg {
+    width: 100%; /* Scale to fit the width */
+    height: 100%; /* Scale to fit the height */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+#visualization {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden; /* Prevent overflow */
+}
+
+svg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: space-between; /* Align scroll box to the left and year display to the right */
+    align-items: center; /* Align items to the bottom */
+    height: 10vh;
+}
+
+.scroll-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #979dbd41;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+#year-slider {
+    width: 70%;
+    height: 8px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #9eb5e0;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+#year-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#year-slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.year-display {
+  width: 80px;
+  font-size: 1.2em;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.year-display.left {
+    left: 2%;
+}
+
+.year-display.right {
+    right: 2%;
+}
+
+.clock-ico {
+    height: 80%;
+    margin: 15px;
+}
+
+.basura-titulo {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+/* Contenedor general con scroll si es necesario */
+.basura-container {
+  padding: 20px;
+  background-color: #f0f4f8;
+  height: 100%; /* 🔥 ocupa todo el espacio posible */
+  overflow-y: visible; /* 🔄 No aplica scroll */
+  border-radius: 30px;
+}
+
+
+/* Cada ítem individual (imagen + cantidad) */
+.basura-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 6px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.basura-item :hover {
+  transform: scale(1.05);
+}
+
+img.basura-svg {
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+/* Contenedor del listado de ítems en forma de grilla */
+#basura-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 12px;
+  justify-items: center;
+  align-items: start;
+}
+
+.basura-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  gap: 10px;
+}
+
+.item-basura:hover {
+  transform: scale(1.05);
+}
+
+.item-basura {
+  position: relative;
+  display: inline-block;
+}
+
+.item-basura img {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.item-basura .cantidad {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;            /* O el color que mejor contraste */
+  font-weight: bold;
+  font-size: 1.2em;
+  pointer-events: none;    /* Para que el texto no interfiera con clicks */
+  text-shadow: 0 0 5px black; /* Mejor legibilidad */
+}
+
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 3fr 0fr; /* izquierda, centro, derecha */
+  gap: 20px;
+  padding: 10px;
+  height: calc(100vh - 150px); /* ajusta según tu cabecera */
+  height: 100vh ;
+  box-sizing: border-box;
+}
+
+.panel {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: auto;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: #f4f4f4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.panel {
+  right: 0;
+  transform: translateX(100%); /* Oculto fuera de la vista */
+}
+
+.panel.visible {
+  transform: translateX(0); /* Visible en pantalla */
+}
+
+#visualization {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.svg-wrapper {
+  flex: 1;
+  width: 100%;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+  gap: 10px;
+}
+
+
+/* Responsive: apila todo en pantallas pequeñas */
+@media (max-width: 768px) {
+  .layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+}
+
+.layout-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.panel-centro {
+  flex: 1; /* Ocupa todo el espacio disponible */
+  padding: 0; /* Elimina cualquier padding interno */
+  margin: 0; /* Elimina cualquier margen externo */
+  width: 100%; /* Asegura que ocupe el 100% del ancho */
+  height: 100%; /* Asegura que ocupe el 100% del alto */
+  display: flex; /* Asegura que el contenido interno se ajuste */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  box-sizing: border-box; /* Incluye padding y bordes en el tamaño total */
+  background-color: aliceblue;
+  border-radius: 30px;
+}
+
+#info-pais.panel.derecha {
+  width: 220px; /* Más delgado */
+  height: fit-content;
+  padding: 10px;
+  margin: auto;
+  font-size: 14px;
+  background-color: #f8f8f8;
+  border-left: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+#info-pais h3 {
+  margin-top: 0;
+}
+
+#info-pais p {
+  margin: 6px 0;
+}
+
+.slider-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.slider-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f0f4f8;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#year-slider {
+  width: 150px;
+}
+
+.year-display {
+  width: 60px;
+  text-align: center;
+}
+
+.clock-ico {
+  width: 24px;
+  height: 24px;
+}
+
+.contenedor {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: flex-start; /* Esto asegura que las 3 columnas se alineen arriba */
+}
+
+.centro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-panel {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#year-slider {
+  width: 150px;
+}
+
+.year-display {
+  width: 60px;
+  text-align: center;
+}
+
+.clock-ico {
+  width: 24px;
+  height: 24px;
+}
+
+/* Contenedor de la imagen: aquí D3 aplica el tamaño dinámico */
+.basura-imagen-wrapper {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;  /* D3 sobrescribe con estilo en línea */
+  height: 100%;
+}
+
+/* Imagen escalada dentro del wrapper */
+.basura-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+/* Cantidad de basura superpuesta sobre la imagen */
+.cantidad-superpuesta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  pointer-events: none;
+  text-shadow: 0 0 5px white;
+}
+
+.izquierda {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;  /* Si quieres scroll solo cuando sea necesario */
+  padding-bottom: 20px;  /* Añade espacio adicional debajo */
+}
+
+/* Ajustes específicos */
+.derecha {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#basura-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 12px;
+  justify-items: center;
+  align-items: start;
+}
+
+.basura-imagen-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}

@@ -1,0 +1,11 @@
+basura_id,nombre,imagen
+b9,Colillas de cigarro,cigarro.png
+b3,Botellas plasticas,botella_plastico.png
+b10,Tapas de botella,tapas_de_botella.png
+b11,Envolturas,envoltorios.png
+b12,Bolsas de supermercado,bolsa_supermercado.png
+b13,Otras bolsas,otras_bolsas.png
+b14,Bombillas,bombillas.png
+b16,Contenedores de comida,contenedor_comida.png
+b18,Platos y vasos (papel),platos_vasos_papel.png
+b17,Platos y vasos (plastico),vasos_platos_plastico.png
